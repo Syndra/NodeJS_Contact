@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Web Programming 3nd Project "CONTACT"</title>
+    <script type="text/javascript" src="javascript/post.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/template.css" />
+</head>
+<body>
+    <div>
+      <h1>Contact List</h1>
+    </div>
+    <input type="button" value="SHOW ALL" id="submit" onClick="goPost('list')">
+    <table>
+      <tr>
+        <th>IDX</th>
+        <th>NAME</th>
+        <th>NUMBER</th>
+        <th>E-MAIL</th>
+        <th>GROUP</th>
+        <th>BIRTH</th>
+      </tr>
+      <tr>
+        <td>New</td>
+        <td><input type="text" id="name" placeholder="NAME"></td>
+        <td><input type="text" id="phone" placeholder="000-0000-0000"></td>
+        <td><input type="text" id="email" placeholder="( mail@example.com )"></td>
+        <td><input type="text" id="group" placeholder="( group )"></td>
+        <td><input type="text" id="birth" placeholder="( 1999.01.01 )"></td>
+        <td><input type="button" class = "buttons" value="INSERT" onClick="goPost('insert')"></td>
+        <td><input type="button" class = "buttons" value="SEARCH" onClick="goPost('search')"></td>
+      </tr>
+    </table>
+</body>
+</html>
